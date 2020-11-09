@@ -1,0 +1,7 @@
+Regex que valida un password en JavaScript:
+  - Minimo 6 carácteres de longitud
+  - Minimo una minuscula
+  - Minimo una mayuscula
+  - Solo se aceptan caracteres alfanumericos
+  
+/^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])[\w0-9]{6,}$/
